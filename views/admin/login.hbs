@@ -1,0 +1,25 @@
+<div class="container" style="margin: auto">
+<form action="/admin/login" method="post" class="row gy-2 gx-3 align-items-center " style = 'margin :300px'>
+  <div class="col-auto">
+    <input type="text" class="form-control" id="autoSizingInput" placeholder="Usuario" name="usuario">
+  </div>
+  <div class="col-auto">
+    <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+    <div class="input-group">
+
+      <input type="password" class="form-control" id="autoSizingInputGroup" placeholder="Contraseña" name="password">
+    </div>
+  </div>
+  
+  <div class="col-auto">
+    <button type="submit"  id="enviar" class="btn btn-primary">Enviar</button>
+  </div>
+</form>
+
+
+</div>
+{{#if error}}
+<div class="incorrecto">
+<p>Usuario o contraseña incorrectos</p>
+</div>
+{{/if}}

@@ -1,0 +1,110 @@
+/* font-family: 'Alfa Slab One', cursive; */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+footer{
+    background-color: #aaa;
+  width: 100%;
+  position: relative;
+  bottom: -200px;
+
+}
+h1, h2, h3{
+    font-family: 'Alfa Slab One', cursive;
+}
+.imagen{
+    width: 60px;
+    aspect-ratio: 2.1;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+.bis{
+    width: 320pxpx;
+    height: 90px;
+}
+.lista-de-novedades{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lista-de-novedades li{
+    margin: 4px 0;
+}
+.lista-de-novedades li a{
+    background-color: #fff;
+    font-family: 'alfa slab one',cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: all .2s  ease-in-out;
+    display: block;
+}
+.lista-de-novedades li a:hover{
+    color: #212529;
+    background-color: #dadada;
+}
+.lista-de-novedades li a img{
+    width: 160px;
+    height: 70px;
+    transition: all .2s  ease-in-out;
+    margin-right: 1rem;
+}
+.lista-de-novedades li a:hover img{
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+.modal-body img{
+    width: 180px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.staff{
+    background-color: #efefef;
+}
+.mapa iframe{
+    width: 100%;
+    aspect-ratio: 1.2;
+}
+#contacto {
+    position: relative;
+    top:  -30px; 
+    left: 50px;
+    margin-bottom: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.scroll_section{
+scroll-margin-top:60px ;
+}
+.cabecera{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    
+}
+
+#enviar{
+    margin-top: 10px;
+}
+.incorrecto{
+    text-align: center;
+position: relative;
+top: -300px;
+}
+
+.tabla{
+ align-items: flex-end;
+}
+.agregar{
+    margin-top:100px;
+    margin-bottom: 80px;
+   
+}

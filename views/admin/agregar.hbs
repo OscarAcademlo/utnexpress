@@ -1,0 +1,38 @@
+ <h3 class="agregar text-center">Agregar novedades</h3>
+ 
+ <div class="container"  style="margin: auto">
+
+
+
+<form action="/admin/novedades/agregar" method="post" >
+ 
+   
+    <div class="mb-3">
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="Titulo" name="titulo">
+    </div>
+
+     <div class="form-group" style="margin-bottom: 20px;">
+        <textarea  type="text" class="form-control" placeholder="Subtitulo" name="subtitulo" ></textarea>
+      
+    </div>
+
+    <div class="form-group">
+        <textarea  type="text" class="form-control" placeholder="Cuerpo" name="cuerpo" ></textarea>
+      
+    </div>
+    
+
+    
+    <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Guardar</button>
+  
+</form>
+
+
+
+ </div>
+{{#if error}}
+<p style="margin-top: 20px;" class="text-center">{{message}}</p>
+{{/if}}
+
+
+
