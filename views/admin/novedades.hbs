@@ -33,8 +33,9 @@
             <tr class="table table-success table-striped">
                 <th scope="col" >#</th>
                 <th scope="col" >Titulo</th> 
-                <th scope="col" >Subtitulo</th>
-                <th scope="col" >Noticia</th> 
+                <th scope="col" >Subtitulo</th> 
+                <th scope="col" >Noticia</th>
+                <th scope="col" >Imagen</th> 
 
 
 
@@ -49,8 +50,10 @@
          <tr>
             <th scope="row">{{id}}</th>
             <td>{{titulo}}</td>
+            
             <td>{{subtitulo}}</td>
             <td>{{cuerpo}}</td>
+            <td>{{{imagen}}}</td>
             <td class="text-center">
             <a href="/admin/novedades/modificar/{{id}}" class="btn btn-secondary"><i class="fas fa-pencil-alt"></i></a>
             <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-secondary" ><i class="fas fa-trash"></i></a>

@@ -23,7 +23,7 @@
                 {{#each novedades}}
              
              <li>
-                <a href="#" data-bs-toggle="modal" data-bs-target="#Modal1{{id}}" ><img src="./images/pizza.jpg" alt="">{{titulo}}</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#Modal1{{id}}" ><img src="{{imagen}}" alt="">{{titulo}}</a>
 
                 {{/each}}
              
@@ -60,6 +60,7 @@
       </div>
       <div class="modal-body">
         <h4>{{subtitulo}}</h4>
+        <img src="{{imagen}}" alt="">
         <p>{{cuerpo}}</p>
       </div>
       <div class="modal-footer">
